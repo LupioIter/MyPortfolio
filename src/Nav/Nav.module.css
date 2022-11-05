@@ -1,6 +1,26 @@
 .nav {
     display: flex;
+    align-self: center;
     justify-content: space-between;
     width: 300px;
-    border: 1px solid #5c6a94;
+    max-height: 30px;
+    margin-right: 151px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1F1F20;
+}
+
+.nav a:hover {
+    cursor: pointer;
+}
+
+.nav a:active{
+    color: #2e5793;
+}
+
+.nav a:visited {
+    text-decoration: none;
+    color: #1F1F20;
 }

@@ -1,0 +1,26 @@
+.footerBlock {
+    min-height: 100px;
+    background-color: burlywood;
+}
+
+.footerContainer {
+    min-height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer {
+    border: 1px solid;
+    width: 28%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+    background-color: #cb7676;
+}

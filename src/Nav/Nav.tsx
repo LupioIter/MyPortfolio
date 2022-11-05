@@ -3,7 +3,7 @@ import s from './Nav.module.css';
 
 function Nav() {
     return (
-        <div className="s.nav">
+        <div className={s.nav}>
             <a href="">Main</a>
             <a href="">Skills</a>
             <a href="">Projects</a>
