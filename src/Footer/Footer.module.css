@@ -1,4 +1,7 @@
 .footerBlock {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     min-height: 100px;
     background-color: burlywood;
 }
@@ -12,15 +15,16 @@
 }
 
 .footer {
-    border: 1px solid;
     width: 28%;
+    height: 20%;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .icon {
-    height: 70px;
-    width: 70px;
+    height: 4rem;
+    min-width: 4rem;
     background-color: #cb7676;
+    margin: 5%;
 }

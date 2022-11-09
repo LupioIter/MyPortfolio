@@ -6,7 +6,7 @@ function Main() {
     return (
         <div className={s.mainBlock}>
 
-            <div className={sContainer.container}>
+            <div className={s.container}>
 
                 <div className={s.greeting}>
 

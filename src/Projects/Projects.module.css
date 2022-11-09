@@ -1,15 +1,13 @@
 .projectsBlock {
-    min-height: 100vh;
-    background-color: #d5a269;
-    padding-top: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-.projectsContainer {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: nowrap;
+    min-height: 100vh;
+    background-color: #d5a269;
+}
+
+.container {
+
 }
 
 .title {
@@ -29,7 +27,7 @@
 .projects {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding-top: 70px;
 }

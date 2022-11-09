@@ -1,14 +1,15 @@
 .contactsBlock {
+    display: flex;
+    justify-content: center;
     height: 90vh;
     background-color: #6ea8d7;
-    padding-top: 140px;
-    padding-left: 500px;
-    padding-right: 500px;
 }
 
 .contactsContainer {
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-content: center;
+    justify-content: center;
 }
 
 .title {
@@ -21,7 +22,7 @@
     height: 300px;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 20px;
+    margin: 3%;
 }
 
 .input {

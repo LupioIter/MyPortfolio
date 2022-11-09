@@ -4,6 +4,8 @@
     align-items: center;
     text-align: center;
     width: 250px;
+    margin: 3%;
+    padding: 10px;
     background-color: azure;
 }
 
